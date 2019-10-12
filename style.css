@@ -8,12 +8,113 @@ html { box-sizing: border-box; }
  pozadi     #bdc3c7
  tmava      #31363b
  delitka    #3f464d
- portfolio  #e74c3c
+ portfolio  #e74c3c 
  facebook   #3b5998
  twitter    #1da1f2
 */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 26px;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: whitesmoke;
+}
+
+.foto {
+    width: 250px;
+}
+
+.logo {
+    background-color: #b92e81;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 370px;
+    right: 160px;
+}
 
 
 body {
     background-color: #bdc3c7;
 }
+
+.profil {
+    width: 250px;
+    margin-block: 0;
+    box-shadow: 2px 4px 10px #3f464d;
+}
+
+.hlavicka {
+    margin: 0; 
+    padding: 0;
+    height: 160px;     
+}
+
+.obsah {
+    background-color: #31363b;
+    margin: 0;
+    padding: 20px;
+    border-bottom: 1px solid;
+}
+
+.odkazy {
+    background-color: #31363b;
+    margin: 0;
+}
+
+.odkazy li {
+    display: inline-block;
+}
+
+.odkazy a {
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-variant-caps: all-petite-caps;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 0;
+    color: #3f464d;    
+    border: 1px solid;
+}
+
+.portfolio a{
+    width: 250px;
+    padding: 0 ;
+    margin: 0;
+    
+}
+
+.portfolio a:hover,
+.portfolio a:focus,
+.portfolio a:active {
+    background-color: #e74c3c;
+}
+
+.facebook a {
+    border-top-color: #3f464d;
+}
+
+.twitter a {
+    border-top-color: #3f464d;
+}
+
+.odkazy a:hover,
+.odkazy a:focus,
+.odkazy a:active {
+    background-color: burlywood;
+}
+
+/*OTÁZKY:
+1. nedaří se mi nastavit odlišnou barvu pro ty dělítka a pro písmo v tlačítkách (profil, facebook, twitter), pořád mi to bere jednu a tu samou, asi je tam problém s dědičností, ale zatím se mi to nepodařilo dolišit. Jak mohy ty barvy odlišit?
+2. Úplně se mi nedaří oddělit ta dvě spodní tlačítka - facebook a twitter - lepí se na sebe - je to přes padding a margin? - Zkoušela jsem to přes padding a margin, ale nějak to nešlo, tak jen jestli je skutečně přes tyto jevy?
+DÍKY
+
+
+
+
+
