@@ -33,10 +33,9 @@ p {
     background-color: #b92e81;
     border-radius: 50%;
     position: absolute;
-    bottom: 370px;
-    right: 160px;
+    top: 150px;
+    left: 180px;
 }
-
 
 body {
     background-color: #bdc3c7;
@@ -58,12 +57,12 @@ body {
     background-color: #31363b;
     margin: 0;
     padding: 20px;
-    border-bottom: 1px solid;
 }
 
 .odkazy {
     background-color: #31363b;
     margin: 0;
+    padding: 0;
 }
 
 .odkazy li {
@@ -77,16 +76,17 @@ body {
     font-size: 20px;
     font-weight: bold;
     text-decoration: none;
-    padding: 0;
-    color: #3f464d;    
-    border: 1px solid;
+    color: white;    
+    height: 40px;
 }
 
 .portfolio a{
     width: 250px;
-    padding: 0 ;
+    padding: 5px;
     margin: 0;
-    
+    text-align: center;
+    border-top: 1px solid #3f464d; 
+    border-bottom: 1px solid #3f464d;   
 }
 
 .portfolio a:hover,
@@ -96,25 +96,26 @@ body {
 }
 
 .facebook a {
-    border-top-color: #3f464d;
+    padding: 5px;
+    width: 125px;
+    text-align: center;
+    border-right: 1px solid #3f464d;
 }
 
 .twitter a {
-    border-top-color: #3f464d;
+    padding: 5px;
+    width: 125px;
+    text-align: center;
 }
 
-.odkazy a:hover,
-.odkazy a:focus,
-.odkazy a:active {
-    background-color: burlywood;
+.facebook a:hover,
+.facebook a:focus,
+.facebook a:active {
+    background-color: #3b5998;
 }
 
-/*OTÁZKY:
-1. nedaří se mi nastavit odlišnou barvu pro ty dělítka a pro písmo v tlačítkách (profil, facebook, twitter), pořád mi to bere jednu a tu samou, asi je tam problém s dědičností, ale zatím se mi to nepodařilo dolišit. Jak mohy ty barvy odlišit?
-2. Úplně se mi nedaří oddělit ta dvě spodní tlačítka - facebook a twitter - lepí se na sebe - je to přes padding a margin? - Zkoušela jsem to přes padding a margin, ale nějak to nešlo, tak jen jestli je skutečně přes tyto jevy?
-DÍKY
-
-
-
-
-
+.twitter a:hover,
+.twitter a:focus,
+.twitter a:active {
+    background-color: #1da1f2;
+}
